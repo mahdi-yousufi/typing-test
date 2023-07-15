@@ -13,7 +13,9 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #17A2B8;
+  /* background: linear-gradient(#340bca ,rgb(128, 0, 122) ); */
+  background: #1727b8;
+  /* background: linear-gradient(#000000 50%, #ffb92a 50%); */
 }
 
 ::selection {
@@ -26,7 +28,7 @@ body {
   padding: 35px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.10);
 }
 
 .wrapper .input-field {
